@@ -64,8 +64,9 @@ int evaluatePostfix(char* exp)
 	// Scan all characters one by one 
 	for (i = 0; exp[i]; ++i) 
 	{ 
-		if (isdigit(exp[i])) 
-			push(stack, exp[i] - '0'); 
+		if (isdigit(exp[i])) {
+			printf("\n %c \n", exp[i]);
+			push(stack, exp[i] - '0'); }
 
 		else
 		{ 
@@ -85,7 +86,7 @@ int evaluatePostfix(char* exp)
 
 int main() 
 { 
-	char exp[] = "53+62/*35*+"; 
+	char exp[] = "921*-8-4+"; 
 	printf ("Enter the postfix expression\n");
 	scanf("%s",exp);
 	printf ("postfix evaluation: %d", evaluatePostfix(exp)); 

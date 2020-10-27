@@ -1,6 +1,6 @@
 [Project]
-FileName=man in rain play.dev
-Name=man in rain
+FileName=bezierCurve.dev
+Name=bezierCurve
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=man in rain.cpp
+FileName=BezeirCurve.cpp
 CompileCpp=1
 Folder=
 Compile=1
